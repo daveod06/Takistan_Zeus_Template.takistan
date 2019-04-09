@@ -83,4 +83,16 @@ class CfgVehicles
     {
         sound = "Back_In_The_USSR_SFX"; // reference to CfgSFX class
     };
+    class Who_Will_Save_The_World_SFXSound // class name to be used with createSoundSource
+    {
+        sound = "Who_Will_Save_The_World_SFX"; // reference to CfgSFX class
+    };
+    class Afghan_Music_SFXSound // class name to be used with createSoundSource
+    {
+        sound = "Afghan_Music_SFX"; // reference to CfgSFX class
+    };
+    class Yugo_Soviet_Pop_SFXSound // class name to be used with createSoundSource
+    {
+        sound = "Yugo_Soviet_Pop_SFX"; // reference to CfgSFX class
+    };
 };

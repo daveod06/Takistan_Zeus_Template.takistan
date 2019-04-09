@@ -14,6 +14,7 @@ Tooth_playersHaveWatch = false;
 Tooth_playersHaveMap = false;
 Tooth_playersHaveCompass = false;
 
+A3E_WorldName = "Takistan";
 
 TOOTH_LZ_Smoke = [];
 TOOTH_LZ_Smoke pushback "SmokeShellBlue";
