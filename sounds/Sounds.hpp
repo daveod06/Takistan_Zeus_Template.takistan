@@ -1,16 +1,34 @@
 class CfgSounds
 {
-    sounds[] = {Soviet_National_Anthem,Back_In_The_USSR};
+    sounds[] = {Soviet_National_Anthem,Back_In_The_USSR,Who_Will_Save_The_World,Afghan_Music,Yugo_Soviet_Pop};
 	class Soviet_National_Anthem
 	{
 		name = "Soviet_National_Anthem";
 		sound[] = {"\sounds\Soviet_National_Anthem.ogg", 1.0, 1};
 		titles[] = {1, ""};
 	};
-    class 
+    class Back_In_The_USSR
 	{
 		name = "Back_In_The_USSR";
 		sound[] = {"\music\Back_In_The_USSR.ogg", 1.0, 1};
+		titles[] = {1, ""};
+	};
+    class Who_Will_Save_The_World
+	{
+		name = "Who_Will_Save_The_World";
+		sound[] = {"\sounds\Who_Will_Save_The_World.ogg", 1.0, 1};
+		titles[] = {1, ""};
+	};
+    class Afghan_Music
+	{
+		name = "";
+		sound[] = {"\sounds\Afghan_Music.ogg", 1.0, 1};
+		titles[] = {1, ""};
+	};
+    class Yugo_Soviet_Pop
+	{
+		name = "Yugo_Soviet_Pop";
+		sound[] = {"\sounds\Yugo_Soviet_Pop.ogg", 1.0, 1};
 		titles[] = {1, ""};
 	};
 };
@@ -29,6 +47,27 @@ class CfgSFX
     {
         name = "Back_In_The_USSR_SFX";
         sound0[] = {"\music\Back_In_The_USSR.ogg", db-5, 1.0, 150, 1, 0, 0, 0};
+        sounds[] = {sound0};
+        empty[] = {"", 0, 0, 0, 0, 0, 0, 0};
+    };
+    class Who_Will_Save_The_World_SFX
+    {
+        name = "Who_Will_Save_The_World_SFX";
+        sound0[] = {"\sounds\Who_Will_Save_The_World.ogg", db-5, 1.0, 150, 1, 0, 0, 0};
+        sounds[] = {sound0};
+        empty[] = {"", 0, 0, 0, 0, 0, 0, 0};
+    };
+    class Afghan_Music_SFX
+    {
+        name = "Afghan_Music_SFX";
+        sound0[] = {"\sounds\Afghan_Music.ogg", db-5, 1.0, 150, 1, 0, 0, 0};
+        sounds[] = {sound0};
+        empty[] = {"", 0, 0, 0, 0, 0, 0, 0};
+    };
+    class Yugo_Soviet_Pop_SFX
+    {
+        name = "Yugo_Soviet_Pop_SFX";
+        sound0[] = {"\sounds\Yugo_Soviet_Pop.ogg", db-5, 1.0, 150, 1, 0, 0, 0};
         sounds[] = {sound0};
         empty[] = {"", 0, 0, 0, 0, 0, 0, 0};
     };
