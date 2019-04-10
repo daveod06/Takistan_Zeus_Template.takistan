@@ -1,0 +1,14 @@
+_soundSource = createSoundSource ["Soviet_National_Anthem_SFXSound", position this, [], 0]; // for static objects with vehicle sound class
+
+this say3D "Ride_Of_The_Valkyries"; // for attaching a sound in CfgSounds
+
+
+
+_soundPath = [(str missionConfigFile), 0, -15] call BIS_fnc_trimString; // for playing a mission sound file - doesnt work for JIP
+_soundToPlay = _soundPath + "sounds\some_sound_file.ogg";
+playSound3D [_soundToPlay, _sourceObject, false, getPos this, -1, 1, 150]; 
+//Volume db+10, volume drops off to 0 at 50 meters from _sourceObject
+
+
+
+

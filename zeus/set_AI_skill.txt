@@ -1,0 +1,10 @@
+AISkill=[0.04,0.01,0.02,0.07,0.13,0.6,0.3,0.7,0.3];
+_grp= group this;
+_skillset=AISkill;
+{
+	_unit = _x;
+	{
+		_skillvalue = (_skillset select _forEachIndex);
+		_unit setSkill [_x,_skillvalue];
+	} forEach ["aimingAccuracy","aimingShake","aimingSpeed","spotDistance","spotTime","courage","reloadSpeed","commanding","general"];
+} forEach (units _grp);

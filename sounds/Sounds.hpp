@@ -39,35 +39,35 @@ class CfgSFX
     class Soviet_National_Anthem_SFX
     {
         name = "Soviet_National_Anthem_SFX";
-        sound0[] = {"\sounds\Soviet_National_Anthem.ogg", db-5, 1.0, 150, 1, 0, 0, 0};
+        sound0[] = {"\sounds\Soviet_National_Anthem.ogg", db-1, 1.0, 150, 1, 0, 0, 0};
         sounds[] = {sound0};
         empty[] = {"", 0, 0, 0, 0, 0, 0, 0};
     };
     class Back_In_The_USSR_SFX
     {
         name = "Back_In_The_USSR_SFX";
-        sound0[] = {"\music\Back_In_The_USSR.ogg", db-5, 1.0, 150, 1, 0, 0, 0};
+        sound0[] = {"\music\Back_In_The_USSR.ogg", db-1, 1.0, 150, 1, 0, 0, 0};
         sounds[] = {sound0};
         empty[] = {"", 0, 0, 0, 0, 0, 0, 0};
     };
     class Who_Will_Save_The_World_SFX
     {
         name = "Who_Will_Save_The_World_SFX";
-        sound0[] = {"\sounds\Who_Will_Save_The_World.ogg", db-5, 1.0, 150, 1, 0, 0, 0};
+        sound0[] = {"\sounds\Who_Will_Save_The_World.ogg", db-1, 1.0, 150, 1, 0, 0, 0};
         sounds[] = {sound0};
         empty[] = {"", 0, 0, 0, 0, 0, 0, 0};
     };
     class Afghan_Music_SFX
     {
         name = "Afghan_Music_SFX";
-        sound0[] = {"\sounds\Afghan_Music.ogg", db-5, 1.0, 150, 1, 0, 0, 0};
+        sound0[] = {"\sounds\Afghan_Music.ogg", db-1, 1.0, 150, 1, 0, 0, 0};
         sounds[] = {sound0};
         empty[] = {"", 0, 0, 0, 0, 0, 0, 0};
     };
     class Yugo_Soviet_Pop_SFX
     {
         name = "Yugo_Soviet_Pop_SFX";
-        sound0[] = {"\sounds\Yugo_Soviet_Pop.ogg", db-5, 1.0, 150, 1, 0, 0, 0};
+        sound0[] = {"\sounds\Yugo_Soviet_Pop.ogg", db-1, 1.0, 150, 1, 0, 0, 0};
         sounds[] = {sound0};
         empty[] = {"", 0, 0, 0, 0, 0, 0, 0};
     };
