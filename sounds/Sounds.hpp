@@ -31,6 +31,12 @@ class CfgSounds
 		sound[] = {"\sounds\Yugo_Soviet_Pop.ogg", 1.0, 1};
 		titles[] = {1, ""};
 	};
+    class Soviet_Thrash_Metal
+    {
+        name = "Soviet_Thrash_Metal";
+        sound[] = {"\sounds\Soviet_Thrash_Metal.ogg", 1.0, 1};
+        titles[] = {1, ""};
+    };
 };
 
 class CfgSFX
@@ -71,6 +77,13 @@ class CfgSFX
         sounds[] = {sound0};
         empty[] = {"", 0, 0, 0, 0, 0, 0, 0};
     };
+    class Soviet_Thrash_Metal_SFX
+    {
+        name = "Soviet_Thrash_Metal_SFX";
+        sound0[] = {"\sounds\Soviet_Thrash_Metal.ogg", db-1, 1.0, 150, 1, 0, 0, 0};
+        sounds[] = {sound0};
+        empty[] = {"", 0, 0, 0, 0, 0, 0, 0};
+    };
 };
 
 class CfgVehicles
@@ -94,5 +107,9 @@ class CfgVehicles
     class Yugo_Soviet_Pop_SFXSound // class name to be used with createSoundSource
     {
         sound = "Yugo_Soviet_Pop_SFX"; // reference to CfgSFX class
+    };
+    class Soviet_Thrash_Metal_SFXSound // class name to be used with createSoundSource
+    {
+        sound = "Soviet_Thrash_Metal_SFX"; // reference to CfgSFX class
     };
 };
