@@ -31,23 +31,5 @@ if ( ("Param_UseCustomWeather" call BIS_fnc_getParamValue) == 1) then
 {
 };
 
-[] spawn
-{
-    while {true} do 
-    {
-        {
-            _x addCuratorEditableObjects [allUnits, true];
-            _x addCuratorEditableObjects [vehicles, true];
-            sleep 60;
-        } forEach allCurators; 
-    };
-};
-
-
-
-//# Add Spawning for Zeus modules and HCs
-
-
-
 sleep 1.0;
 missionNameSpace setvariable["A3E_ServerInitialized",true,true];

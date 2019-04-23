@@ -12,6 +12,22 @@ if (!isServer && isNull player) then
     _isJipPlayer = true;
 };
 
+if (!hasInterface && !isDedicated) then {
+    headlessClients = [];
+    headlessClients set [(count headlessClients), player];
+    publicVariable "headlessClients";
+    headlessClientsOwners = [];
+    headlessClientsOwners set [(count headlessClientsOwners), clientOwner];
+    publicVariable "headlessClientsOwners";
+};
+
+/*
+if (isServer) then
+{
+    [] call ToothFunctions_fnc_passToHCs;
+};
+*/
+
 //call compile preprocessFileLineNumbers "config.sqf"; // FIXME
 
 //enableSaving [true, true];
