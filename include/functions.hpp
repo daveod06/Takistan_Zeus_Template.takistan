@@ -31,4 +31,5 @@ class CfgFunctions
 			#include "..\functions\HSC\hsc.hpp"
 		};
 	};
+	#include "..\functions\AIS\Functions.hpp"
 };
